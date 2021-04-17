@@ -12,10 +12,10 @@
 
     <!--  2.数据库连接池  -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
-        <property name="driver" value="${db.drive}"/>
+        <property name="driverClassName" value="${db.drive}"/>
         <property name="url" value="${db.url}"/>
         <property name="username" value="${db.username}"/>
-        <property name="password" value="${db.password}"/>
+        <property name="password" value=""/>
     </bean>
 
     <!--  3.sqlSessionFactory  -->

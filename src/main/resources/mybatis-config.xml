@@ -8,6 +8,6 @@
         <package name="com.jsoncc.pojo"/>
     </typeAliases>
     <mappers>
-        <mapper resource="com/jsoncc/dao/BookMapper.xml"/>
+        <mapper resource="com/jsoncc/dao/GoodsMapper.xml"/>
     </mappers>
 </configuration>
