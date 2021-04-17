@@ -1,0 +1,5 @@
+com\jsoncc\controller\GoodsController.class
+com\jsoncc\pojo\Goods.class
+com\jsoncc\service\GoodsServiceImpl.class
+com\jsoncc\service\GoodsService.class
+com\jsoncc\dao\GoodsMapper.class
